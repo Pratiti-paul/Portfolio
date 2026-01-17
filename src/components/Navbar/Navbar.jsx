@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
         <div className="logo" onClick={() => scrollToSection('hero')}>
-          PARTH<span className="dot">.</span>
+          PRATITI<span className="dot">.</span>
         </div>
 
         <div className={`menu-icon ${menuOpen ? 'open' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
