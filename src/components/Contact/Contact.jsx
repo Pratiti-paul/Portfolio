@@ -48,14 +48,14 @@ const Contact = () => {
   return (
     <section id="contact" className="contact-section">
       <div className="contact-container">
-        <h2 className="contact-title">
+        <h2 className="contact-title reveal">
           Let's create <br />
           something <span className="highlight">real.</span>
         </h2>
 
-        <div className="contact-content">
+        <div className="contact-content stagger-container">
           {/* LEFT COLUMN — unchanged */}
-          <div className="contact-column">
+          <div className="contact-column stagger-item">
             <h3 className="contact-subtitle">Contact Info</h3>
             <div className="contact-info-cards">
               <div className="info-card">
@@ -105,7 +105,7 @@ const Contact = () => {
           </div>
 
           {/* RIGHT COLUMN */}
-          <div className="contact-column">
+          <div className="contact-column stagger-item">
             <h3 className="contact-subtitle">Send a Message</h3>
 
             <form className="contact-form" onSubmit={handleSubmit}>

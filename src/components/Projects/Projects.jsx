@@ -26,11 +26,11 @@ const Projects = () => {
   return (
     <section id="projects" className="projects-section">
       <div className="projects-container">
-        <h2 className="section-title">Selected <span className="highlight">Projects</span></h2>
+        <h2 className="section-title reveal">Featured <span className="highlight">Projects</span></h2>
         
-        <div className="projects-grid">
-          {projects.map((project, index) => (
-            <div key={index} className="project-card">
+        <div className="projects-grid stagger-container">
+          {projects.map((project) => (
+            <div className="project-card stagger-item" key={project.id}>
               <div className="project-preview">
                 {project.image && <img src={project.image} alt={project.title} />}
               </div>

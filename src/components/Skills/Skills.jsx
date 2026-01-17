@@ -52,9 +52,9 @@ const Skills = () => {
           The Magic <span className="highlight">Behind</span>
         </h2>
 
-        <div className="skills-grid">
+        <div className="skills-grid stagger-container">
           {skills.map((skill, index) => (
-            <div key={index} className="skill-item">
+            <div key={index} className="skill-item stagger-item">
               <div className="skill-icon">{skill.icon}</div>
               <span className="skill-name">{skill.name}</span>
             </div>
