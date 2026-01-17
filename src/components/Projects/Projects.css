@@ -28,6 +28,7 @@
 @media (min-width: 768px) {
     .project-card {
         flex-direction: row-reverse;
+        /* Image on the right */
         align-items: stretch;
         height: 400px;
     }

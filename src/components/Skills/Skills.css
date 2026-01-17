@@ -62,3 +62,63 @@
         font-size: 2.5rem;
     }
 }
+
+
+.skill-item {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 18px;
+    padding: 22px 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 25px rgba(199, 112, 240, 0.35);
+}
+
+.skill-icon {
+    font-size: 2.4rem;
+    color: #c770f0;
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+
+.skill-item {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.6s ease forwards;
+}
+
+.skill-item:nth-child(1) { animation-delay: 0.05s; }
+.skill-item:nth-child(2) { animation-delay: 0.1s; }
+.skill-item:nth-child(3) { animation-delay: 0.15s; }
+.skill-item:nth-child(4) { animation-delay: 0.2s; }
+/* continue or use JS for dynamic */
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.skill-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.skill-item:hover .skill-icon {
+  transform: scale(1.15) rotate(-5deg);
+  color: #e0aaff;
+}
+
+
+.skill-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+

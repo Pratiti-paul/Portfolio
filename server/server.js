@@ -8,9 +8,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5001;
 
-/* =========================
-   MIDDLEWARE
-========================= */
+
 app.use(cors());
 app.use(express.json());
 
@@ -19,21 +17,15 @@ app.use((req, res, next) => {
   next();
 });
 
-/* =========================
-   TEST ROUTE
-========================= */
 app.get("/", (req, res) => {
   res.send("Medico backend is running 🚀");
 });
 
-/* =========================
-   NODEMAILER
-========================= */
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
     user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS, // Gmail App Password
+    pass: process.env.EMAIL_PASS, 
   },
 });
 
@@ -45,9 +37,7 @@ transporter.verify((error) => {
   }
 });
 
-/* =========================
-   CONTACT API
-========================= */
+
 app.post("/api/contact", async (req, res) => {
   console.log("📩 Contact form data:", req.body);
 
@@ -80,9 +70,6 @@ app.post("/api/contact", async (req, res) => {
   }
 });
 
-/* =========================
-   START SERVER
-========================= */
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
   console.log(`🔗 http://localhost:${PORT}/`);

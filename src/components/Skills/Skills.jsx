@@ -1,11 +1,46 @@
-import React from 'react';
-import './Skills.css';
+import React from "react";
+import "./Skills.css";
+
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaNodeJs,
+  FaPython,
+} from "react-icons/fa";
+
+import {
+  SiTypescript,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiExpress,
+  SiPostgresql,
+  SiMongodb,
+  SiPrisma,
+  SiNumpy,
+  SiPandas,
+} from "react-icons/si";
+
+import { MdOutlineAutoAwesome } from "react-icons/md";
 
 const skills = [
- "HTML", "CSS", "JavaScript", "ReactJS", "TypeScript", "Tailwind CSS", 
- "NodeJS",  "NextJS", "ExpressJS", "PostgreSQL", "MongoDB", "Prisma",
- "Python", "Numpy", "Pandas", "AI/ML"
-
+  { name: "HTML", icon: <FaHtml5 /> },
+  { name: "CSS", icon: <FaCss3Alt /> },
+  { name: "JavaScript", icon: <FaJs /> },
+  { name: "ReactJS", icon: <FaReact /> },
+  { name: "TypeScript", icon: <SiTypescript /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+  { name: "NodeJS", icon: <FaNodeJs /> },
+  { name: "NextJS", icon: <SiNextdotjs /> },
+  { name: "ExpressJS", icon: <SiExpress /> },
+  { name: "PostgreSQL", icon: <SiPostgresql /> },
+  { name: "MongoDB", icon: <SiMongodb /> },
+  { name: "Prisma", icon: <SiPrisma /> },
+  { name: "Python", icon: <FaPython /> },
+  { name: "NumPy", icon: <SiNumpy /> },
+  { name: "Pandas", icon: <SiPandas /> },
+  { name: "AI / ML", icon: <MdOutlineAutoAwesome /> },
 ];
 
 const Skills = () => {
@@ -20,7 +55,8 @@ const Skills = () => {
         <div className="skills-grid">
           {skills.map((skill, index) => (
             <div key={index} className="skill-item">
-              <span className="skill-name">{skill}</span>
+              <div className="skill-icon">{skill.icon}</div>
+              <span className="skill-name">{skill.name}</span>
             </div>
           ))}
         </div>
