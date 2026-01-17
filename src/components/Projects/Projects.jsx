@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import medicoImg from '../../assets/medico.png';
+import cineverseImg from '../../assets/cineverse.png';
 
 const projects = [
   {
@@ -10,6 +11,14 @@ const projects = [
     liveLink: "https://medico-sooty-omega.vercel.app/",
     githubLink: "https://github.com/Pratiti-paul/Medico",
     image: medicoImg
+  },
+  {
+    title: "Cineverse",
+    description: "CineVerse is a modern movie discovery platform featuring a smart recommendation system, genre browsing, a personal watchlist and personalized collection feature where you can add your own reviews too.",
+    tags: ["JavaScript","React.js", "Node.js + Express.js", "PostgreSQL"],
+    liveLink: "https://cineversefrontend.vercel.app/",
+    githubLink: "https://github.com/Pratiti-paul/Cineversefrontend",
+    image: cineverseImg
   }
 ];
 
