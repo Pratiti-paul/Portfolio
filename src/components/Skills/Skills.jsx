@@ -2,10 +2,10 @@ import React from 'react';
 import './Skills.css';
 
 const skills = [
-  "ReactJS", "NextJS", "TypeScript", "Tailwind CSS", "Motion", "Sanity",
-  "Contentful", "NodeJS", "ExpressJS", "PostgreSQL", "MongoDB", "Prisma",
-  "Zustand", "Zod", "pnpm", "Bun", "Git", "GitHub", "Vercel",
-  "AWS", "Docker", "Expo", "Clerk", "Linux"
+ "HTML", "CSS", "JavaScript", "ReactJS", "TypeScript", "Tailwind CSS", 
+ "NodeJS",  "NextJS", "ExpressJS", "PostgreSQL", "MongoDB", "Prisma",
+ "Python", "Numpy", "Pandas", "AI/ML"
+
 ];
 
 const Skills = () => {

@@ -18,15 +18,15 @@ const About = () => {
         </p>
 
         <div className="about-buttons">
-          <a href="#" className="btn icon-btn">
+          <a href="https://github.com/Pratiti-paul" className="btn icon-btn">
              Github
           </a>
-          <a href="#" className="btn icon-btn">
+          <a href="https://www.linkedin.com/in/pratiti-paul/" className="btn icon-btn">
              LinkedIn
           </a>
-          <a href="#" className="btn icon-btn">
+          {/* <a href="#" className="btn icon-btn">
              Download CV
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
