@@ -1,0 +1,64 @@
+.skills-section {
+    padding: 8rem 2rem;
+    background: var(--bg-color);
+    text-align: center;
+}
+
+.skills-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.skills-subtitle {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    color: var(--secondary-text);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.skills-title {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+.skills-title .highlight {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill-item {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.8rem 1.5rem;
+    border-radius: 9999px;
+    font-size: 0.95rem;
+    color: var(--text-color);
+    cursor: default;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.skill-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .skills-title {
+        font-size: 2.5rem;
+    }
+}

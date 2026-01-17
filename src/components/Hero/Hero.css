@@ -1,0 +1,121 @@
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 60px;
+    /* Navbar height */
+}
+
+.hero-container {
+    text-align: center;
+    z-index: 10;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 12vw;
+    line-height: 0.9;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--text-color);
+    letter-spacing: -5px;
+    margin-bottom: 2rem;
+    background: linear-gradient(180deg, #ffffff 0%, #666 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slideUp 1s ease-out forwards;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: var(--secondary-text);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    animation: fadeIn 1.5s ease-out forwards;
+}
+
+.hero-subtitle .highlight {
+    font-family: 'Playfair Display', serif;
+    /* Or keep standard */
+    font-style: italic;
+    text-transform: lowercase;
+    font-size: 2.5rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.hero-glow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    height: 40vw;
+    background: var(--accent-color);
+    filter: blur(150px);
+    opacity: 0.2;
+    z-index: -1;
+    border-radius: 50%;
+    animation: pulse 5s infinite ease-in-out;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.2;
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.1);
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.2;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 18vw;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-subtitle .highlight {
+        font-size: 1.8rem;
+    }
+}
