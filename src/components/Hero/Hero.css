@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+
 .hero-section {
     min-height: 100vh;
     display: flex;
@@ -6,7 +8,6 @@
     position: relative;
     overflow: hidden;
     padding-top: 60px;
-    /* Navbar height */
 }
 
 .hero-container {
@@ -27,6 +28,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: slideUp 1s ease-out forwards;
+}
+
+.hero-title span{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-weight: 800;
 }
 
 .hero-subtitle {
