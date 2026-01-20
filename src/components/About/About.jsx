@@ -24,6 +24,9 @@ const About = () => {
           <a href="https://www.linkedin.com/in/pratiti-paul/" className="btn icon-btn">
              LinkedIn
           </a>
+          <a href="https://www.instagram.com/paul_pratiti23/" className="btn icon-btn">
+             Instagram
+          </a>
           {/* <a href="#" className="btn icon-btn">
              Download CV
           </a> */}
