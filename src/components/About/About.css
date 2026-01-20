@@ -17,8 +17,7 @@
 }
 
 .section-title .highlight {
-    color: #3b82f6;
-    /* Blueish cyan from image */
+    color: var(--accent-color);
 }
 
 .about-description {
