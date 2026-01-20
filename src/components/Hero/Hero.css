@@ -25,6 +25,7 @@
     letter-spacing: -5px;
     margin-bottom: 2rem;
     background: linear-gradient(180deg, #ffffff 0%, #666 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: slideUp 1s ease-out forwards;
@@ -53,6 +54,7 @@
     text-transform: lowercase;
     font-size: 2.5rem;
     background: var(--accent-gradient);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: block;

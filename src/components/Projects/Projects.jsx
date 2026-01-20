@@ -2,6 +2,7 @@ import React from 'react';
 import './Projects.css';
 import medicoImg from '../../assets/medico.png';
 import cineverseImg from '../../assets/cineverse.png';
+import neurofixImg from '../../assets/neurofix.png';
 
 const projects = [
   {
@@ -19,6 +20,14 @@ const projects = [
     liveLink: "https://cineversefrontend.vercel.app/",
     githubLink: "https://github.com/Pratiti-paul/Cineversefrontend",
     image: cineverseImg
+  },
+  {
+    title: "Neurofix",
+    description: "A personalized mental health tracker designed to help users reflect, relax, and grow.",
+    tags: ["React", "HTML", "CSS", "JavaScript"],
+    liveLink: "https://neurofix-final.vercel.app/",
+    githubLink: "https://github.com/Pratiti-paul/Neurofix_final",
+    image: neurofixImg
   }
 ];
 
