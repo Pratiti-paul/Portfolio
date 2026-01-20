@@ -103,7 +103,7 @@ const Contact = () => {
                    <h4>Available for</h4>
                    <div className="availability-tags">
                      <span>Freelance</span>
-                     <span>Part-time</span>
+                     <span>Internships</span>
                    </div>
                  </div>
               </div>
