@@ -15,19 +15,14 @@ both <strong>in code</strong> and <strong>beyond it</strong>.
 </ul>
 
 <h3>🛠 Built With</h3>
-- Frontend: React, Vite, CSS
-- Backend: Node.js, Express
-- Email Service: Nodemailer
-- Animations: Framer Motion / CSS transitions
-- Deployment: Render (Backend), Vercel (Frontend)
-
-<h3>🚀 Run Locally</h3>
-<pre>
-npm install
-npm run dev
-</pre>
+<ul>
+  <li>Frontend: React, Vite, CSS</li>
+  <li>Backend: Node.js, Express</li>
+  <li>Email Service: Nodemailer</li>
+  <li>Deployment: Render (Backend), Vercel (Frontend)</li>
+</ul>
 
 <p>
-Made with 
+Made with ❤️ by Pratiti Paul
 </p>
 
