@@ -8,6 +8,7 @@ import {
   FaReact,
   FaNodeJs,
   FaPython,
+  FaDatabase,
 } from "react-icons/fa";
 
 import {
@@ -20,6 +21,8 @@ import {
   SiPrisma,
   SiNumpy,
   SiPandas,
+  SiStreamlit,
+  SiFastapi,
 } from "react-icons/si";
 
 import { MdOutlineAutoAwesome } from "react-icons/md";
@@ -40,6 +43,9 @@ const skills = [
   { name: "Python", icon: <FaPython /> },
   { name: "NumPy", icon: <SiNumpy /> },
   { name: "Pandas", icon: <SiPandas /> },
+  { name: "DBMS", icon: <FaDatabase /> },
+  { name: "Streamlit", icon: <SiStreamlit /> },
+  { name: "FastAPI", icon: <SiFastapi /> },
   { name: "AI / ML", icon: <MdOutlineAutoAwesome /> },
 ];
 

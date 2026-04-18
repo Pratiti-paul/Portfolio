@@ -2,6 +2,7 @@ import React from 'react';
 import './Projects.css';
 import medicoImg from '../../assets/medico.png';
 import cineverseImg from '../../assets/cineverse.png';
+import repoinsightImg from '../../assets/repoinsight.png';
 import neurofixImg from '../../assets/neurofix.png';
 
 const projects = [
@@ -15,15 +16,23 @@ const projects = [
   },
   {
     title: "Cineverse",
-    description: "CineVerse is a modern movie discovery platform featuring a smart recommendation system, genre browsing, a personal watchlist and personalized collection feature where you can add your own reviews too.",
+    description: "It is a modern movie discovery platform featuring a smart recommendation system, genre browsing, a personal watchlist and personalized collection feature where you can add your own reviews too.",
     tags: ["JavaScript","React.js", "Node.js + Express.js", "PostgreSQL"],
     liveLink: "https://cineversefrontend.vercel.app/",
     githubLink: "https://github.com/Pratiti-paul/Cineversefrontend",
     image: cineverseImg
   },
   {
+    title: "RepoInsight",
+    description: "It is an AI-powered tool that analyzes GitHub profiles to evaluate projects, skills, and hireability with recruiter-style insights. It fetches real GitHub data, performs deep analysis on repositories, and presents actionable feedback to improve a developer’s portfolio.",
+    tags: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "FastAPI"],
+    liveLink: "https://repo-insight-pink.vercel.app/",
+    githubLink: "https://github.com/Pratiti-paul/RepoInsight",
+    image: repoinsightImg
+  },
+  {
     title: "Neurofix",
-    description: "A personalized mental health tracker designed to help users reflect, relax, and grow.",
+    description: "It is a personalized mental health tracker designed to help users reflect, relax, and grow.",
     tags: ["React", "HTML", "CSS", "JavaScript"],
     liveLink: "https://neurofix-final.vercel.app/",
     githubLink: "https://github.com/Pratiti-paul/Neurofix_final",
