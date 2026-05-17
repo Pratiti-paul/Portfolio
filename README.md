@@ -16,7 +16,7 @@ both <strong>in code</strong> and <strong>beyond it</strong>.
 
 <h3>🛠 Built With</h3>
 <ul>
-  <li>Frontend: React, Vite, CSS</li>
+  <li>Frontend: React, Vite</li>
   <li>Backend: Node.js, Express</li>
   <li>Email Service: Nodemailer</li>
   <li>Deployment: Render (Backend), Vercel (Frontend)</li>
