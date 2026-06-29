@@ -5,23 +5,24 @@ import medicoImg from "../../assets/medico.png";
 import cineverseImg from "../../assets/cineverse.png";
 import repoinsightImg from "../../assets/repoinsight.png";
 import neurofixImg from "../../assets/neurofix.png";
+import staynearImg from "../../assets/StayNear.png";
 
 const projects = [
   {
     title: "StayNear",
     category: "development",
     description:
-      "It is an AI-powered tool that analyzes GitHub profiles to evaluate projects, skills, and hireability with recruiter-style insights. It fetches real GitHub data, performs deep analysis on repositories, and presents actionable feedback to improve a developer’s portfolio.",
+      "StayNear is a full-stack student accommodation platform designed to help students discover and connect with verified rental properties near their colleges. The platform provides separate experiences for Seekers (Students), Property Owners, and Admins, enabling seamless property discovery, listing management, inquiry handling, and secure authentication through a Role-Based Access Control (RBAC) system.",
     tags: [
       "React.js",
-      "Next.js",
-      "TypeScript",
+      "Node.js",
+      "Express.js",
       "Tailwind CSS",
-      "FastAPI",
+      "MongoDB",
     ],
-    liveLink: "https://repo-insight-pink.vercel.app/",
-    githubLink: "https://github.com/Pratiti-paul/RepoInsight",
-    image: repoinsightImg,
+    liveLink: "https://stayoutnear.vercel.app/",
+    githubLink: "https://github.com/Pratiti-paul/StayNear",
+    image: staynearImg,
   },
   {
     title: "Medico",
