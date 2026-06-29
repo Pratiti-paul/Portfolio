@@ -149,3 +149,38 @@
 .link-btn.outline:hover {
     color: var(--text-color);
 }
+
+/* ================= FILTER BUTTONS ================= */
+
+.project-filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 3rem 0 4rem;
+}
+
+.project-filters button {
+    padding: 12px 28px;
+    border-radius: 999px;
+    border: 1px solid var(--border-color);
+    background: transparent;
+    color: var(--secondary-text);
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.35s ease;
+}
+
+.project-filters button:hover {
+    color: var(--text-color);
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+.project-filters button.active {
+    background: var(--accent-color);
+    color: #fff;
+    border-color: var(--accent-color);
+    box-shadow: 0 8px 25px rgba(139, 92, 246, 0.35);
+}
