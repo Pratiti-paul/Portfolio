@@ -6,6 +6,9 @@ import cineverseImg from "../../assets/cineverse.png";
 import repoinsightImg from "../../assets/repoinsight.png";
 import neurofixImg from "../../assets/neurofix.png";
 import staynearImg from "../../assets/StayNear.png";
+import spotifyImg from "../../assets/spotify.png";
+import swiggyImg from "../../assets/swiggy.png";
+import airbnbImg from "../../assets/airbnb.png";
 
 const projects = [
   {
@@ -59,26 +62,32 @@ const projects = [
   // ---------------- DVA ----------------
 
   {
-    title: "Sorting Visualizer",
-    category: "dva",
-    description:
-      "Interactive visualization of popular sorting algorithms with real-time animation and complexity analysis.",
-    tags: ["React", "Algorithms", "JavaScript"],
-    liveLink: "#",
-    githubLink: "#",
-    image: medicoImg,
+    title: "Spotify Analysis",
+    category: "DVA",
+    description: "Built an end-to-end Spotify analytics project analyzing 114k+ tracks across 125 genres to uncover music trends, popularity drivers, and listener preferences. Performed data cleaning and preprocessing using Python and Excel, then designed interactive Tableau dashboards with KPI-focused visualizations to deliver actionable insights through data storytelling and trend analysis.",
+    tags: ["Tableau", "Excel", "Python", "Pandas"],
+    githubLink: "https://github.com/Pratiti-paul/Spotify_Analysis",
+    image: spotifyImg
   },
 
   {
-    title: "Graph Visualizer",
-    category: "dva",
-    description:
-      "Visualization of graph traversal algorithms including BFS, DFS, Dijkstra and shortest path animations.",
-    tags: ["React", "Graphs", "DSA"],
-    liveLink: "#",
-    githubLink: "#",
-    image: cineverseImg,
+    title: "Swiggy Analysis",
+    category: "DVA",
+    description: "Developed a comprehensive Swiggy sales and operations analytics dashboard to analyze customer behavior, restaurant performance, delivery trends, and revenue insights across multiple cities. Performed data cleaning, KPI analysis, and visualization using Excel and Power BI/Tableau to identify high-performing categories, order patterns, and business opportunities, enabling data-driven decision-making through interactive dashboards and analytical storytelling.",
+    tags: ["Tableau", "Jupyter Notebook", "Pandas"],
+    githubLink: "https://github.com/Pratiti-paul/B_G19_SwiggyAnalysis",
+    image: swiggyImg
   },
+  {
+    title: "Airbnb Price Optimization",
+    category: "DVA",
+    description: "Built an end-to-end Airbnb pricing optimization project analyzing listing performance, occupancy rates, pricing patterns, and estimated revenue across thousands of properties. Performed data cleaning, KPI calculation, and exploratory analysis using Excel and Google Sheets, then designed interactive dashboards with pivot tables and visualizations to identify optimal price bands, high-performing room types, and revenue-driving market trends for data-driven pricing strategy recommendations.",
+    tags: ["Google Sheets", "Excel"],
+    githubLink: "https://github.com/Pratiti-paul/AirbnbPriceOptimization",
+    image: airbnbImg
+  }
+
+  
 
   // ---------------- AI/ML ----------------
 
