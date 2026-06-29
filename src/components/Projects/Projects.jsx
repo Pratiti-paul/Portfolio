@@ -58,9 +58,6 @@ const projects = [
     githubLink: "https://github.com/Pratiti-paul/Neurofix_final",
     image: neurofixImg,
   },
-
-  // ---------------- DVA ----------------
-
   {
     title: "Spotify Analysis",
     category: "dva",
@@ -86,11 +83,6 @@ const projects = [
     githubLink: "https://github.com/Pratiti-paul/AirbnbPriceOptimization",
     image: airbnbImg
   },
-
-  
-
-  // ---------------- AI/ML ----------------
-
   {
     title: "RepoInsight",
     category: "aiml",
