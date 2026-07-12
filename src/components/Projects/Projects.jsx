@@ -34,31 +34,24 @@ const projects = [
     title: "Puddly",
     subtitle: "Desktop Hydration Companion",
     category: "development",
-    status: "🚀 Public Launch",
-    featured: true,
     description:
       "An interactive desktop hydration companion that replaces routine notifications with a cute character who walks on screen and reminds you to drink water.",
     tags: [
       "Electron",
       "Desktop App",
-      "Cross Platform",
       "JavaScript",
       "HTML",
-      "CSS",
-      "Open Source",
+      "CSS"
     ],
     features: [
-      "💧 Interactive reminders",
-      "🚶 Walking animations",
-      "💬 Conversations",
-      "🌙 DND mode",
-      "🖥 macOS + Windows",
+      "Interactive reminders",
+      "Walking animations",
+      "DND mode",
+      "macOS + Windows",
     ],
     liveLink: "https://puddly-website-o4wf.vercel.app/",
     githubLink: "https://github.com/Pratiti-paul/Puddly",
     downloadLink: "https://github.com/Pratiti-paul/Puddly/releases/tag/v1.0.0",
-    // Add Puddly's published Product Hunt URL here when it is available.
-    productHuntLink: "",
     image: puddlyImg,
   },
   {
